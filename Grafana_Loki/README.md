@@ -11,7 +11,7 @@ helm show values grafana/loki-stack > values.yaml
 
 # Install using values.yaml
 ```
-helm install --values values.yaml <loki> grafana/loki-stack
+helm install --values values.yaml loki grafana/loki-stack
 ```
 
 # Access Grafana UI and get password from secret
